@@ -8,7 +8,7 @@ class FastResize < Formula
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
-  depends_on "jpeg"
+  depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "webp"
 
