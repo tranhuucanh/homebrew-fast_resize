@@ -1,5 +1,5 @@
 class FastResize < Formula
-  desc "Fast, lightweight image resizing library"
+  desc "The fastest image resizing library on the planet."
   homepage "https://github.com/tranhuucanh/fast_resize"
   version "1.0.0"
   url "https://github.com/tranhuucanh/fast_resize/releases/download/v1.0.0/fast_resize-1.0.0.tar.gz"

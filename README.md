@@ -1,6 +1,6 @@
 # Homebrew Fast Resize
 
-Official Homebrew tap for [FastResize](https://github.com/tranhuucanh/fast_resize) - a fast, lightweight image resizing library.
+Official Homebrew tap for [FastResize](https://github.com/tranhuucanh/fast_resize) - The fastest image resizing library on the planet. Resize 1,000 images in **2 seconds**. Up to **2.9x faster** than libvips, **3.1x faster** than imageflow. Uses **3-4x less RAM** than alternatives.
 
 ## Installation
 
@@ -11,7 +11,7 @@ brew install fast_resize
 
 ## What is FastResize?
 
-FastResize is a high-performance image resizing library with C++ backend supporting PNG, JPG, JPEG, WEBP, and BMP formats. It features parallel batch processing and minimal memory footprint.
+FastResize is a fastest image resizing library on the planet with C++ backend supporting PNG, JPG, JPEG, WEBP, and BMP formats. It features parallel batch processing and minimal memory footprint.
 
 ### Features
 
@@ -20,39 +20,6 @@ FastResize is a high-performance image resizing library with C++ backend support
 - 🔄 **Batch Processing**: Process hundreds of images in parallel
 - 🎨 **Multiple Formats**: PNG, JPG, JPEG, WEBP, BMP
 - 🔧 **Easy to Use**: Simple C++ and Ruby APIs
-
-## Usage
-
-### As a Library (C++)
-
-```cpp
-#include <fastresize.h>
-
-// Resize an image
-fastresize::ResizeOptions opts;
-opts.target_width = 800;
-opts.target_height = 600;
-fastresize::resize("input.jpg", "output.jpg", opts);
-```
-
-### As a Ruby Gem
-
-FastResize is also available as a Ruby gem:
-
-```bash
-gem install fast_resize
-```
-
-```ruby
-require 'fastresize'
-
-# Resize an image
-FastResize.resize("input.jpg", "output.jpg", width: 800, height: 600)
-
-# Batch resize
-files = ["img1.jpg", "img2.jpg", "img3.jpg"]
-FastResize.batch_resize(files, "output_dir/", width: 800, height: 600)
-```
 
 ## Documentation
 
