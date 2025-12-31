@@ -1,9 +1,9 @@
 class FastResize < Formula
   desc "The fastest image resizing library on the planet."
   homepage "https://github.com/tranhuucanh/fast_resize"
-  version "1.0.4"
-  url "https://github.com/tranhuucanh/fast_resize/releases/download/v1.0.4/fast_resize-1.0.4.tar.gz"
-  sha256 "0b98efbc85337dc3496600f233af34474970cb8433af95ac95a421edd1accfa4"
+  version "1.0.5"
+  url "https://github.com/tranhuucanh/fast_resize/releases/download/v1.0.5/fast_resize-1.0.5.tar.gz"
+  sha256 "d4ceb454fbe13a3d81770e04890fc430c66d333a90c9773ebe70ba541ab5973f"
   license "BSD-3-Clause"
 
   depends_on "cmake" => :build
