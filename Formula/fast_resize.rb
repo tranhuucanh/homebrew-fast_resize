@@ -3,7 +3,7 @@ class FastResize < Formula
   homepage "https://github.com/tranhuucanh/fast_resize"
   version "1.0.5"
   url "https://github.com/tranhuucanh/fast_resize/releases/download/v1.0.5/fast_resize-1.0.5.tar.gz"
-  sha256 "d4ceb454fbe13a3d81770e04890fc430c66d333a90c9773ebe70ba541ab5973f"
+  sha256 "461bdf3c1b03b834f3e6aa55f9d38cda847aa50b722899df6f614cecaa54941b"
   license "BSD-3-Clause"
 
   depends_on "cmake" => :build
